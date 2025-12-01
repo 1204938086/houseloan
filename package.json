@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "deploy": "gh-pages -d example"
   },
   "dependencies": {
     "vue": "^2.5.2",
@@ -15,7 +16,6 @@
     "vux": "^2.7.0"
   },
   "devDependencies": {
-    "less-loader": "^4.1.0",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-loader": "^7.1.1",
@@ -32,8 +32,10 @@
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^2.30.1",
     "http-proxy-middleware": "^0.17.3",
+    "less-loader": "^4.1.0",
     "opn": "^5.1.0",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
