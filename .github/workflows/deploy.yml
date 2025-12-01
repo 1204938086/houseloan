@@ -1,6 +1,6 @@
 name: Deploy Vue to GitHub Pages
 
-# 触发条件：推送代码到 main 分支时
+# 触发条件：推送代码到 main 分支时1
 on:
   push:
     branches: [ main ]
